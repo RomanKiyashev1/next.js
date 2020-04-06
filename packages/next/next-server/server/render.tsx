@@ -701,8 +701,8 @@ export async function renderToHTML(
   let renderPage: RenderPage = (
     options: ComponentsEnhancer = {}
   ): { html: string; head: any } => {
-    const renderError = renderPageError()
-    if (renderError) return renderError
+    // const renderError = renderPageError()
+    // if (renderError) return renderError
 
     const {
       App: EnhancedApp,
